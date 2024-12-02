@@ -1,32 +1,33 @@
-body{
+
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
-}
-
-.container{
+  }
+  
+  .container {
     width: 90%;
     max-width: 800px;
     margin: 20px auto;
     background: #fff;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-}
-
-h1{
+  }
+  
+  h1 {
     text-align: center;
     color: #333;
-}
-
-p{
+  }
+  
+  p {
     text-align: center;
     font-size: 18px;
     color: #555;
-}
-
-button{
+  }
+  
+  button {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
@@ -36,26 +37,26 @@ button{
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
-}
-
-button:hover{
+  }
+  
+  button:hover {
     background-color: #0056b3;
-}
-
-a.back-link{
+  }
+  
+  a.back-link {
     display: block;
     text-align: center;
     margin-bottom: 20px;
     text-decoration: none;
     color: #007bff;
     font-size: 16px;
-}
-
-a.back-link:hover {
+  }
+  
+  a.back-link:hover {
     text-decoration: underline;
-}
+  }
 
-.form-container {
+  .form-container {
     margin-bottom: 20px;
   }
   
@@ -85,7 +86,8 @@ a.back-link:hover {
     border: 1px solid #ddd;
     border-radius: 4px;
   }
-  .dashboard-overview {
+
+.dashboard-overview {
     margin: 20px 0;
     padding: 10px;
     background-color: #f9f9f9;
@@ -119,7 +121,8 @@ a.back-link:hover {
     font-weight: bold;
     color: #007bff;
   }
-  #taskList {
+
+#taskList {
     list-style: none;
     padding: 0;
   }
@@ -152,7 +155,8 @@ a.back-link:hover {
   .task-complete:hover {
     background: #218838;
   }
-  #teamList {
+
+#teamList {
     list-style: none;
     padding: 0;
   }
@@ -169,7 +173,8 @@ a.back-link:hover {
     font-style: italic;
     color: #555;
   }
-  body {
+
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -232,3 +237,4 @@ a.back-link:hover {
   a:hover {
     text-decoration: underline;
   }
+  
