@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Project Management</h1>
+    
+    <a href="homepage.html" class="back-link">Back to Homepage</a>
+    
+    <div class="form-container">
+      <h2>Add a New Project</h2>
+      <form id="projectForm">
+        <input type="text" id="projectName" placeholder="Project Name" required />
+        <textarea id="projectDescription" placeholder="Project Description" required></textarea>
+        <button type="submit">Add Project</button>
+      </form>
+    </div>
+    
+    <div class="projects-container">
+      <h2>Projects List</h2>
+      <ul id="projectsList">
+
+      </ul>
+     
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
